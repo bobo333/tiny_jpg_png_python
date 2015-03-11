@@ -2,7 +2,7 @@ import urllib2
 import glob
 import base64
 
-API_KEY = 'kusRBnuU1u0e7NCMSCGw5SUZHscYH34a'
+API_KEY = '[API KEY HERE]'
 
 encoded_auth = base64.b64encode('api:%s' % API_KEY)
 
